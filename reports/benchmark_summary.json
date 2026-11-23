@@ -1,0 +1,51 @@
+{
+  "project": "ZeroShortcut",
+  "report_version": "2.1",
+  "dataset_version": "V2",
+  "total_tasks": 24,
+  "total_questions": 144,
+  "valid_images": 24,
+  "unique_datasets": 24,
+  "chart_distribution": {
+    "bar": 6,
+    "horizontal_bar": 6,
+    "line": 6,
+    "lollipop": 6
+  },
+  "question_distribution": {
+    "highest_category": 24,
+    "second_highest": 24,
+    "value_lookup": 24,
+    "absolute_difference": 24,
+    "count_above_threshold": 24,
+    "total_value": 18,
+    "largest_step_change": 6
+  },
+  "reference_validation": {
+    "passed": 24,
+    "failed": 0
+  },
+  "adversarial_validation": {
+    "module": "Adversarial Validation",
+    "dataset": "data/visual_tasks_v2.json",
+    "base_tasks": 24,
+    "adversarial_tests": {
+      "incorrect_answer_detection": true,
+      "missing_image_detection": true,
+      "duplicate_id_detection": true,
+      "ambiguous_tie_detection": true
+    },
+    "adversarial_tests_passed": 4,
+    "adversarial_tests_total": 4,
+    "all_adversarial_tests_passed": true
+  },
+  "ai_model_evaluation": {
+    "status": "complete",
+    "model": "NVIDIA Nemotron 3.5 Super VL",
+    "model_accuracy": 82.64,
+    "correct": 119,
+    "incorrect": 25,
+    "questions_evaluated": 144,
+    "source_report": "reports/nemotron_final_benchmark.json"
+  }
+}

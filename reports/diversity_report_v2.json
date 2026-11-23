@@ -1,0 +1,146 @@
+{
+    "generation_version": "2.0",
+    "total_tasks": 24,
+    "total_questions": 144,
+    "chart_distribution": {
+        "bar": 6,
+        "horizontal_bar": 6,
+        "line": 6,
+        "lollipop": 6
+    },
+    "question_distribution": {
+        "highest_category": 24,
+        "second_highest": 24,
+        "value_lookup": 24,
+        "absolute_difference": 24,
+        "count_above_threshold": 24,
+        "total_value": 18,
+        "largest_step_change": 6
+    },
+    "unique_datasets": 24,
+    "valid_images": 24,
+    "passed_tasks": 24,
+    "failed_tasks": 0,
+    "validation_results": [
+        {
+            "task_id": "ZS2_001",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_002",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_003",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_004",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_005",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_006",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_007",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_008",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_009",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_010",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_011",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_012",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_013",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_014",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_015",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_016",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_017",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_018",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_019",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_020",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_021",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_022",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_023",
+            "status": "PASS",
+            "errors": []
+        },
+        {
+            "task_id": "ZS2_024",
+            "status": "PASS",
+            "errors": []
+        }
+    ]
+}

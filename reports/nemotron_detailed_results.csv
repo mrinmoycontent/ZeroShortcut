@@ -1,0 +1,145 @@
+task_id,chart_type,question_id,question_type,question,reference_answer,model_answer,correct
+ZS2_001,bar,ZS2_001_Q1,highest_category,Which category has the highest value?,West,West,True
+ZS2_001,bar,ZS2_001_Q2,second_highest,Which category ranks second highest?,East,East,True
+ZS2_001,bar,ZS2_001_Q3,value_lookup,What is the value for North?,195,195,True
+ZS2_001,bar,ZS2_001_Q4,absolute_difference,What is the absolute difference between South and North?,115,115,True
+ZS2_001,bar,ZS2_001_Q5,count_above_threshold,How many categories have a value greater than 310?,3,3,True
+ZS2_001,bar,ZS2_001_Q6,total_value,What is the total value across all categories?,3058,3058,True
+ZS2_002,horizontal_bar,ZS2_002_Q1,highest_category,Which category has the highest value?,South,South,True
+ZS2_002,horizontal_bar,ZS2_002_Q2,second_highest,Which category ranks second highest?,Coastal,Coastal,True
+ZS2_002,horizontal_bar,ZS2_002_Q3,value_lookup,What is the value for Coastal?,796,796,True
+ZS2_002,horizontal_bar,ZS2_002_Q4,absolute_difference,What is the absolute difference between Central and North?,272,272,True
+ZS2_002,horizontal_bar,ZS2_002_Q5,count_above_threshold,How many categories have a value greater than 454?,2,2,True
+ZS2_002,horizontal_bar,ZS2_002_Q6,total_value,What is the total value across all categories?,2494,2494,True
+ZS2_003,line,ZS2_003_Q1,highest_category,Which category has the highest value?,Aug,Aug,True
+ZS2_003,line,ZS2_003_Q2,second_highest,Which category ranks second highest?,May,May,True
+ZS2_003,line,ZS2_003_Q3,value_lookup,What is the value for Jul?,449,449,True
+ZS2_003,line,ZS2_003_Q4,absolute_difference,What is the absolute difference between Aug and May?,67,402,False
+ZS2_003,line,ZS2_003_Q5,count_above_threshold,How many categories have a value greater than 665?,4,4,True
+ZS2_003,line,ZS2_003_Q6,largest_step_change,Between which consecutive periods does the largest absolute change occur?,Apr to May,Apr to May,True
+ZS2_004,lollipop,ZS2_004_Q1,highest_category,Which category has the highest value?,Metro,Metro,True
+ZS2_004,lollipop,ZS2_004_Q2,second_highest,Which category ranks second highest?,Coastal,Coastal,True
+ZS2_004,lollipop,ZS2_004_Q3,value_lookup,What is the value for Coastal?,810,810,True
+ZS2_004,lollipop,ZS2_004_Q4,absolute_difference,What is the absolute difference between North and East?,348,348,True
+ZS2_004,lollipop,ZS2_004_Q5,count_above_threshold,How many categories have a value greater than 626?,3,3,True
+ZS2_004,lollipop,ZS2_004_Q6,total_value,What is the total value across all categories?,4329,3529,False
+ZS2_005,bar,ZS2_005_Q1,highest_category,Which category has the highest value?,Metro,Metro,True
+ZS2_005,bar,ZS2_005_Q2,second_highest,Which category ranks second highest?,Central,Central,True
+ZS2_005,bar,ZS2_005_Q3,value_lookup,What is the value for East?,602,602,True
+ZS2_005,bar,ZS2_005_Q4,absolute_difference,What is the absolute difference between North and Coastal?,379,379,True
+ZS2_005,bar,ZS2_005_Q5,count_above_threshold,How many categories have a value greater than 647?,3,3,True
+ZS2_005,bar,ZS2_005_Q6,total_value,What is the total value across all categories?,3780,3780,True
+ZS2_006,horizontal_bar,ZS2_006_Q1,highest_category,Which category has the highest value?,West,West,True
+ZS2_006,horizontal_bar,ZS2_006_Q2,second_highest,Which category ranks second highest?,Coastal,Coastal,True
+ZS2_006,horizontal_bar,ZS2_006_Q3,value_lookup,What is the value for North?,287,287,True
+ZS2_006,horizontal_bar,ZS2_006_Q4,absolute_difference,What is the absolute difference between Coastal and North?,549,549,True
+ZS2_006,horizontal_bar,ZS2_006_Q5,count_above_threshold,How many categories have a value greater than 467?,2,3,False
+ZS2_006,horizontal_bar,ZS2_006_Q6,total_value,What is the total value across all categories?,2806,2806,True
+ZS2_007,line,ZS2_007_Q1,highest_category,Which category has the highest value?,Sep,Sep,True
+ZS2_007,line,ZS2_007_Q2,second_highest,Which category ranks second highest?,Jul,Jul,True
+ZS2_007,line,ZS2_007_Q3,value_lookup,What is the value for Jul?,791,791,True
+ZS2_007,line,ZS2_007_Q4,absolute_difference,What is the absolute difference between May and Apr?,107,107,True
+ZS2_007,line,ZS2_007_Q5,count_above_threshold,How many categories have a value greater than 619?,3,3,True
+ZS2_007,line,ZS2_007_Q6,largest_step_change,Between which consecutive periods does the largest absolute change occur?,Aug to Sep,Jul to Aug,False
+ZS2_008,lollipop,ZS2_008_Q1,highest_category,Which category has the highest value?,Coastal,Coastal,True
+ZS2_008,lollipop,ZS2_008_Q2,second_highest,Which category ranks second highest?,South,South,True
+ZS2_008,lollipop,ZS2_008_Q3,value_lookup,What is the value for Central?,326,326,True
+ZS2_008,lollipop,ZS2_008_Q4,absolute_difference,What is the absolute difference between Metro and West?,38,161,False
+ZS2_008,lollipop,ZS2_008_Q5,count_above_threshold,How many categories have a value greater than 441?,3,3,True
+ZS2_008,lollipop,ZS2_008_Q6,total_value,What is the total value across all categories?,2744,2744,True
+ZS2_009,bar,ZS2_009_Q1,highest_category,Which category has the highest value?,East,East,True
+ZS2_009,bar,ZS2_009_Q2,second_highest,Which category ranks second highest?,Coastal,Coastal,True
+ZS2_009,bar,ZS2_009_Q3,value_lookup,What is the value for Central?,489,489,True
+ZS2_009,bar,ZS2_009_Q4,absolute_difference,What is the absolute difference between South and Central?,216,216,True
+ZS2_009,bar,ZS2_009_Q5,count_above_threshold,How many categories have a value greater than 587?,3,4,False
+ZS2_009,bar,ZS2_009_Q6,total_value,What is the total value across all categories?,4153,4153,True
+ZS2_010,horizontal_bar,ZS2_010_Q1,highest_category,Which category has the highest value?,South,South,True
+ZS2_010,horizontal_bar,ZS2_010_Q2,second_highest,Which category ranks second highest?,East,East,True
+ZS2_010,horizontal_bar,ZS2_010_Q3,value_lookup,What is the value for West?,452,452,True
+ZS2_010,horizontal_bar,ZS2_010_Q4,absolute_difference,What is the absolute difference between East and North?,237,237,True
+ZS2_010,horizontal_bar,ZS2_010_Q5,count_above_threshold,How many categories have a value greater than 637?,3,4,False
+ZS2_010,horizontal_bar,ZS2_010_Q6,total_value,What is the total value across all categories?,3933,3901,False
+ZS2_011,line,ZS2_011_Q1,highest_category,Which category has the highest value?,Sep,Sep,True
+ZS2_011,line,ZS2_011_Q2,second_highest,Which category ranks second highest?,Aug,Aug,True
+ZS2_011,line,ZS2_011_Q3,value_lookup,What is the value for Jun?,661,661,True
+ZS2_011,line,ZS2_011_Q4,absolute_difference,What is the absolute difference between May and Sep?,500,236,False
+ZS2_011,line,ZS2_011_Q5,count_above_threshold,How many categories have a value greater than 537?,4,4,True
+ZS2_011,line,ZS2_011_Q6,largest_step_change,Between which consecutive periods does the largest absolute change occur?,Jul to Aug,Jul to Aug,True
+ZS2_012,lollipop,ZS2_012_Q1,highest_category,Which category has the highest value?,Metro,Metro,True
+ZS2_012,lollipop,ZS2_012_Q2,second_highest,Which category ranks second highest?,Coastal,Coastal,True
+ZS2_012,lollipop,ZS2_012_Q3,value_lookup,What is the value for South?,142,142,True
+ZS2_012,lollipop,ZS2_012_Q4,absolute_difference,What is the absolute difference between North and East?,390,626,False
+ZS2_012,lollipop,ZS2_012_Q5,count_above_threshold,How many categories have a value greater than 563?,3,4,False
+ZS2_012,lollipop,ZS2_012_Q6,total_value,What is the total value across all categories?,3916,3916,True
+ZS2_013,bar,ZS2_013_Q1,highest_category,Which category has the highest value?,Coastal,Coastal,True
+ZS2_013,bar,ZS2_013_Q2,second_highest,Which category ranks second highest?,South,South,True
+ZS2_013,bar,ZS2_013_Q3,value_lookup,What is the value for Central?,479,479,True
+ZS2_013,bar,ZS2_013_Q4,absolute_difference,What is the absolute difference between Central and Metro?,89,231,False
+ZS2_013,bar,ZS2_013_Q5,count_above_threshold,How many categories have a value greater than 621?,3,4,False
+ZS2_013,bar,ZS2_013_Q6,total_value,What is the total value across all categories?,4209,4209,True
+ZS2_014,horizontal_bar,ZS2_014_Q1,highest_category,Which category has the highest value?,South,South,True
+ZS2_014,horizontal_bar,ZS2_014_Q2,second_highest,Which category ranks second highest?,East,East,True
+ZS2_014,horizontal_bar,ZS2_014_Q3,value_lookup,What is the value for South?,951,951,True
+ZS2_014,horizontal_bar,ZS2_014_Q4,absolute_difference,What is the absolute difference between West and South?,796,796,True
+ZS2_014,horizontal_bar,ZS2_014_Q5,count_above_threshold,How many categories have a value greater than 383?,3,2,False
+ZS2_014,horizontal_bar,ZS2_014_Q6,total_value,What is the total value across all categories?,2765,2765,True
+ZS2_015,line,ZS2_015_Q1,highest_category,Which category has the highest value?,Feb,Feb,True
+ZS2_015,line,ZS2_015_Q2,second_highest,Which category ranks second highest?,Apr,Apr,True
+ZS2_015,line,ZS2_015_Q3,value_lookup,What is the value for Apr?,837,837,True
+ZS2_015,line,ZS2_015_Q4,absolute_difference,What is the absolute difference between Jan and Feb?,638,638,True
+ZS2_015,line,ZS2_015_Q5,count_above_threshold,How many categories have a value greater than 819?,3,4,False
+ZS2_015,line,ZS2_015_Q6,largest_step_change,Between which consecutive periods does the largest absolute change occur?,Jan to Feb,Jan and Feb,False
+ZS2_016,lollipop,ZS2_016_Q1,highest_category,Which category has the highest value?,Coastal,Coastal,True
+ZS2_016,lollipop,ZS2_016_Q2,second_highest,Which category ranks second highest?,East,East,True
+ZS2_016,lollipop,ZS2_016_Q3,value_lookup,What is the value for South?,628,628,True
+ZS2_016,lollipop,ZS2_016_Q4,absolute_difference,What is the absolute difference between South and North?,50,50,True
+ZS2_016,lollipop,ZS2_016_Q5,count_above_threshold,How many categories have a value greater than 618?,3,4,False
+ZS2_016,lollipop,ZS2_016_Q6,total_value,What is the total value across all categories?,3864,3864,True
+ZS2_017,bar,ZS2_017_Q1,highest_category,Which category has the highest value?,Metro,Metro,True
+ZS2_017,bar,ZS2_017_Q2,second_highest,Which category ranks second highest?,West,West,True
+ZS2_017,bar,ZS2_017_Q3,value_lookup,What is the value for Metro?,917,917,True
+ZS2_017,bar,ZS2_017_Q4,absolute_difference,What is the absolute difference between Metro and West?,351,351,True
+ZS2_017,bar,ZS2_017_Q5,count_above_threshold,How many categories have a value greater than 551?,2,3,False
+ZS2_017,bar,ZS2_017_Q6,total_value,What is the total value across all categories?,2683,2683,True
+ZS2_018,horizontal_bar,ZS2_018_Q1,highest_category,Which category has the highest value?,West,West,True
+ZS2_018,horizontal_bar,ZS2_018_Q2,second_highest,Which category ranks second highest?,Metro,Metro,True
+ZS2_018,horizontal_bar,ZS2_018_Q3,value_lookup,What is the value for Central?,276,276,True
+ZS2_018,horizontal_bar,ZS2_018_Q4,absolute_difference,What is the absolute difference between West and Coastal?,149,149,True
+ZS2_018,horizontal_bar,ZS2_018_Q5,count_above_threshold,How many categories have a value greater than 609?,3,3,True
+ZS2_018,horizontal_bar,ZS2_018_Q6,total_value,What is the total value across all categories?,3631,3631,True
+ZS2_019,line,ZS2_019_Q1,highest_category,Which category has the highest value?,Aug,Aug,True
+ZS2_019,line,ZS2_019_Q2,second_highest,Which category ranks second highest?,Jun,Jun,True
+ZS2_019,line,ZS2_019_Q3,value_lookup,What is the value for Oct?,775,775,True
+ZS2_019,line,ZS2_019_Q4,absolute_difference,What is the absolute difference between Apr and Sep?,145,144,False
+ZS2_019,line,ZS2_019_Q5,count_above_threshold,How many categories have a value greater than 664?,4,5,False
+ZS2_019,line,ZS2_019_Q6,largest_step_change,Between which consecutive periods does the largest absolute change occur?,Jul to Aug,Jul to Aug,True
+ZS2_020,lollipop,ZS2_020_Q1,highest_category,Which category has the highest value?,South,South,True
+ZS2_020,lollipop,ZS2_020_Q2,second_highest,Which category ranks second highest?,Metro,Metro,True
+ZS2_020,lollipop,ZS2_020_Q3,value_lookup,What is the value for West?,168,168,True
+ZS2_020,lollipop,ZS2_020_Q4,absolute_difference,What is the absolute difference between South and West?,674,674,True
+ZS2_020,lollipop,ZS2_020_Q5,count_above_threshold,How many categories have a value greater than 412?,2,3,False
+ZS2_020,lollipop,ZS2_020_Q6,total_value,What is the total value across all categories?,2390,2390,True
+ZS2_021,bar,ZS2_021_Q1,highest_category,Which category has the highest value?,North,North,True
+ZS2_021,bar,ZS2_021_Q2,second_highest,Which category ranks second highest?,Central,Central,True
+ZS2_021,bar,ZS2_021_Q3,value_lookup,What is the value for Central?,940,940,True
+ZS2_021,bar,ZS2_021_Q4,absolute_difference,What is the absolute difference between East and Central?,48,48,True
+ZS2_021,bar,ZS2_021_Q5,count_above_threshold,How many categories have a value greater than 892?,2,3,False
+ZS2_021,bar,ZS2_021_Q6,total_value,What is the total value across all categories?,3670,3670,True
+ZS2_022,horizontal_bar,ZS2_022_Q1,highest_category,Which category has the highest value?,West,West,True
+ZS2_022,horizontal_bar,ZS2_022_Q2,second_highest,Which category ranks second highest?,Coastal,Coastal,True
+ZS2_022,horizontal_bar,ZS2_022_Q3,value_lookup,What is the value for Metro?,705,705,True
+ZS2_022,horizontal_bar,ZS2_022_Q4,absolute_difference,What is the absolute difference between Coastal and Central?,521,521,True
+ZS2_022,horizontal_bar,ZS2_022_Q5,count_above_threshold,How many categories have a value greater than 609?,3,3,True
+ZS2_022,horizontal_bar,ZS2_022_Q6,total_value,What is the total value across all categories?,3522,3522,True
+ZS2_023,line,ZS2_023_Q1,highest_category,Which category has the highest value?,Feb,Feb,True
+ZS2_023,line,ZS2_023_Q2,second_highest,Which category ranks second highest?,Mar,Mar,True
+ZS2_023,line,ZS2_023_Q3,value_lookup,What is the value for Apr?,490,490,True
+ZS2_023,line,ZS2_023_Q4,absolute_difference,What is the absolute difference between Jun and Jul?,484,484,True
+ZS2_023,line,ZS2_023_Q5,count_above_threshold,How many categories have a value greater than 759?,4,5,False
+ZS2_023,line,ZS2_023_Q6,largest_step_change,Between which consecutive periods does the largest absolute change occur?,Aug to Sep,Jul to Aug,False
+ZS2_024,lollipop,ZS2_024_Q1,highest_category,Which category has the highest value?,Central,Central,True
+ZS2_024,lollipop,ZS2_024_Q2,second_highest,Which category ranks second highest?,Metro,Metro,True
+ZS2_024,lollipop,ZS2_024_Q3,value_lookup,What is the value for Metro?,742,742,True
+ZS2_024,lollipop,ZS2_024_Q4,absolute_difference,What is the absolute difference between South and Metro?,122,122,True
+ZS2_024,lollipop,ZS2_024_Q5,count_above_threshold,How many categories have a value greater than 609?,3,4,False
+ZS2_024,lollipop,ZS2_024_Q6,total_value,What is the total value across all categories?,3585,3585,True

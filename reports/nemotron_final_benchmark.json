@@ -1,0 +1,355 @@
+{
+  "project": "ZeroShortcut",
+  "benchmark": "Nemotron Visual Chart Understanding",
+  "model": "NVIDIA Nemotron 3.5 Super VL",
+  "evaluation_method": "Image-based visual question answering",
+  "scoring_method": "Exact numeric comparison and normalized text comparison",
+  "evaluation_timestamp": "2026-11-23T10:51:33.422158+00:00",
+  "evaluation_status": "complete",
+  "dataset": {
+    "tasks": 24,
+    "questions": 144,
+    "chart_types": 4,
+    "question_types": 7
+  },
+  "overall_results": {
+    "correct": 119,
+    "incorrect": 25,
+    "total": 144,
+    "accuracy_percent": 82.64
+  },
+  "chart_type_results": {
+    "bar": {
+      "correct": 31,
+      "incorrect": 5,
+      "total": 36,
+      "accuracy_percent": 86.11
+    },
+    "horizontal_bar": {
+      "correct": 32,
+      "incorrect": 4,
+      "total": 36,
+      "accuracy_percent": 88.89
+    },
+    "line": {
+      "correct": 27,
+      "incorrect": 9,
+      "total": 36,
+      "accuracy_percent": 75.0
+    },
+    "lollipop": {
+      "correct": 29,
+      "incorrect": 7,
+      "total": 36,
+      "accuracy_percent": 80.56
+    }
+  },
+  "question_type_results": {
+    "highest_category": {
+      "correct": 24,
+      "incorrect": 0,
+      "total": 24,
+      "accuracy_percent": 100.0
+    },
+    "second_highest": {
+      "correct": 24,
+      "incorrect": 0,
+      "total": 24,
+      "accuracy_percent": 100.0
+    },
+    "value_lookup": {
+      "correct": 24,
+      "incorrect": 0,
+      "total": 24,
+      "accuracy_percent": 100.0
+    },
+    "absolute_difference": {
+      "correct": 18,
+      "incorrect": 6,
+      "total": 24,
+      "accuracy_percent": 75.0
+    },
+    "count_above_threshold": {
+      "correct": 10,
+      "incorrect": 14,
+      "total": 24,
+      "accuracy_percent": 41.67
+    },
+    "total_value": {
+      "correct": 16,
+      "incorrect": 2,
+      "total": 18,
+      "accuracy_percent": 88.89
+    },
+    "largest_step_change": {
+      "correct": 3,
+      "incorrect": 3,
+      "total": 6,
+      "accuracy_percent": 50.0
+    }
+  },
+  "model_weakness_analysis": {
+    "weakest_chart_type": "line",
+    "weakest_question_type": "count_above_threshold",
+    "incorrect_examples": [
+      {
+        "task_id": "ZS2_003",
+        "chart_type": "line",
+        "question_id": "ZS2_003_Q4",
+        "question_type": "absolute_difference",
+        "question": "What is the absolute difference between Aug and May?",
+        "reference_answer": 67,
+        "model_answer": "402",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_004",
+        "chart_type": "lollipop",
+        "question_id": "ZS2_004_Q6",
+        "question_type": "total_value",
+        "question": "What is the total value across all categories?",
+        "reference_answer": 4329,
+        "model_answer": "3529",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_006",
+        "chart_type": "horizontal_bar",
+        "question_id": "ZS2_006_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 467?",
+        "reference_answer": 2,
+        "model_answer": "3",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_007",
+        "chart_type": "line",
+        "question_id": "ZS2_007_Q6",
+        "question_type": "largest_step_change",
+        "question": "Between which consecutive periods does the largest absolute change occur?",
+        "reference_answer": "Aug to Sep",
+        "model_answer": "Jul to Aug",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_008",
+        "chart_type": "lollipop",
+        "question_id": "ZS2_008_Q4",
+        "question_type": "absolute_difference",
+        "question": "What is the absolute difference between Metro and West?",
+        "reference_answer": 38,
+        "model_answer": "161",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_009",
+        "chart_type": "bar",
+        "question_id": "ZS2_009_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 587?",
+        "reference_answer": 3,
+        "model_answer": "4",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_010",
+        "chart_type": "horizontal_bar",
+        "question_id": "ZS2_010_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 637?",
+        "reference_answer": 3,
+        "model_answer": "4",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_010",
+        "chart_type": "horizontal_bar",
+        "question_id": "ZS2_010_Q6",
+        "question_type": "total_value",
+        "question": "What is the total value across all categories?",
+        "reference_answer": 3933,
+        "model_answer": "3901",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_011",
+        "chart_type": "line",
+        "question_id": "ZS2_011_Q4",
+        "question_type": "absolute_difference",
+        "question": "What is the absolute difference between May and Sep?",
+        "reference_answer": 500,
+        "model_answer": "236",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_012",
+        "chart_type": "lollipop",
+        "question_id": "ZS2_012_Q4",
+        "question_type": "absolute_difference",
+        "question": "What is the absolute difference between North and East?",
+        "reference_answer": 390,
+        "model_answer": "626",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_012",
+        "chart_type": "lollipop",
+        "question_id": "ZS2_012_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 563?",
+        "reference_answer": 3,
+        "model_answer": "4",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_013",
+        "chart_type": "bar",
+        "question_id": "ZS2_013_Q4",
+        "question_type": "absolute_difference",
+        "question": "What is the absolute difference between Central and Metro?",
+        "reference_answer": 89,
+        "model_answer": "231",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_013",
+        "chart_type": "bar",
+        "question_id": "ZS2_013_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 621?",
+        "reference_answer": 3,
+        "model_answer": "4",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_014",
+        "chart_type": "horizontal_bar",
+        "question_id": "ZS2_014_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 383?",
+        "reference_answer": 3,
+        "model_answer": "2",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_015",
+        "chart_type": "line",
+        "question_id": "ZS2_015_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 819?",
+        "reference_answer": 3,
+        "model_answer": "4",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_015",
+        "chart_type": "line",
+        "question_id": "ZS2_015_Q6",
+        "question_type": "largest_step_change",
+        "question": "Between which consecutive periods does the largest absolute change occur?",
+        "reference_answer": "Jan to Feb",
+        "model_answer": "Jan and Feb",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_016",
+        "chart_type": "lollipop",
+        "question_id": "ZS2_016_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 618?",
+        "reference_answer": 3,
+        "model_answer": "4",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_017",
+        "chart_type": "bar",
+        "question_id": "ZS2_017_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 551?",
+        "reference_answer": 2,
+        "model_answer": "3",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_019",
+        "chart_type": "line",
+        "question_id": "ZS2_019_Q4",
+        "question_type": "absolute_difference",
+        "question": "What is the absolute difference between Apr and Sep?",
+        "reference_answer": 145,
+        "model_answer": "144",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_019",
+        "chart_type": "line",
+        "question_id": "ZS2_019_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 664?",
+        "reference_answer": 4,
+        "model_answer": "5",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_020",
+        "chart_type": "lollipop",
+        "question_id": "ZS2_020_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 412?",
+        "reference_answer": 2,
+        "model_answer": "3",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_021",
+        "chart_type": "bar",
+        "question_id": "ZS2_021_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 892?",
+        "reference_answer": 2,
+        "model_answer": "3",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_023",
+        "chart_type": "line",
+        "question_id": "ZS2_023_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 759?",
+        "reference_answer": 4,
+        "model_answer": "5",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_023",
+        "chart_type": "line",
+        "question_id": "ZS2_023_Q6",
+        "question_type": "largest_step_change",
+        "question": "Between which consecutive periods does the largest absolute change occur?",
+        "reference_answer": "Aug to Sep",
+        "model_answer": "Jul to Aug",
+        "correct": false
+      },
+      {
+        "task_id": "ZS2_024",
+        "chart_type": "lollipop",
+        "question_id": "ZS2_024_Q5",
+        "question_type": "count_above_threshold",
+        "question": "How many categories have a value greater than 609?",
+        "reference_answer": 3,
+        "model_answer": "4",
+        "correct": false
+      }
+    ]
+  },
+  "reconciliation": {
+    "expected_records": 144,
+    "actual_records": 144,
+    "missing_question_ids": [],
+    "duplicate_question_ids": [],
+    "status": "passed"
+  },
+  "evaluation_notes": "All 24 charts and 144 questions were evaluated. One initial request for ZS2_001 exhausted its reasoning-token budget; a successful no-thinking retry was evaluated and scored. The failed initial attempt is retained separately for transparency."
+}

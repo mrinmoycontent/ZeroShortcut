@@ -1,0 +1,14 @@
+{
+  "module": "Adversarial Validation",
+  "dataset": "data/visual_tasks_v2.json",
+  "base_tasks": 24,
+  "adversarial_tests": {
+    "incorrect_answer_detection": true,
+    "missing_image_detection": true,
+    "duplicate_id_detection": true,
+    "ambiguous_tie_detection": true
+  },
+  "adversarial_tests_passed": 4,
+  "adversarial_tests_total": 4,
+  "all_adversarial_tests_passed": true
+}

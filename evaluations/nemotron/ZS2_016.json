@@ -1,0 +1,46 @@
+{
+  "id": "gen-1795430597-3VXC3aY4CHtGIkrStjYO",
+  "object": "chat.completion",
+  "created": 1795430597,
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "provider": "Nvidia",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"answers\": [\n    {\n      \"question_id\": \"ZS2_016_Q1\",\n      \"answer\": \"Coastal\"\n    },\n    {\n      \"question_id\": \"ZS2_016_Q2\",\n      \"answer\": \"East\"\n    },\n    {\n      \"question_id\": \"ZS2_016_Q3\",\n      \"answer\": \"628\"\n    },\n    {\n      \"question_id\": \"ZS2_016_Q4\",\n      \"answer\": \"50\"\n    },\n    {\n      \"question_id\": \"ZS2_016_Q5\",\n      \"answer\": \"4\"\n    },\n    {\n      \"question_id\": \"ZS2_016_Q6\",\n      \"answer\": \"3864\"\n    }\n  ]\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1429,
+    "completion_tokens": 180,
+    "total_tokens": 1609,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

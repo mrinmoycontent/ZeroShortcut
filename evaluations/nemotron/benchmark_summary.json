@@ -1,0 +1,12 @@
+{
+  "project": "ZeroShortcut",
+  "model": "NVIDIA Nemotron 3.5 Super VL",
+  "tasks_completed": 24,
+  "questions_evaluated": 144,
+  "correct_answers": 119,
+  "incorrect_answers": 25,
+  "accuracy_percent": 82.64,
+  "evaluation_status": "complete",
+  "source_report": "reports/nemotron_final_benchmark.json",
+  "note": "Supersedes earlier partial run summary. All 144 question IDs are present and reconciled."
+}

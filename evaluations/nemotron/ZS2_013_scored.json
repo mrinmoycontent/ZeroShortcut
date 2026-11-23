@@ -1,0 +1,85 @@
+{
+  "task_id": "ZS2_013",
+  "chart_type": "bar",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "evaluation_status": "completed",
+  "timestamp": "2026-11-23T10:43:03.212613+00:00",
+  "correct_answers": 4,
+  "incorrect_answers": 2,
+  "total_questions": 6,
+  "accuracy_percent": 66.67,
+  "results": [
+    {
+      "question_id": "ZS2_013_Q1",
+      "question_type": "highest_category",
+      "question": "Which category has the highest value?",
+      "reference_answer": "Coastal",
+      "model_answer": "Coastal",
+      "correct": true
+    },
+    {
+      "question_id": "ZS2_013_Q2",
+      "question_type": "second_highest",
+      "question": "Which category ranks second highest?",
+      "reference_answer": "South",
+      "model_answer": "South",
+      "correct": true
+    },
+    {
+      "question_id": "ZS2_013_Q3",
+      "question_type": "value_lookup",
+      "question": "What is the value for Central?",
+      "reference_answer": 479,
+      "model_answer": "479",
+      "correct": true
+    },
+    {
+      "question_id": "ZS2_013_Q4",
+      "question_type": "absolute_difference",
+      "question": "What is the absolute difference between Central and Metro?",
+      "reference_answer": 89,
+      "model_answer": "231",
+      "correct": false
+    },
+    {
+      "question_id": "ZS2_013_Q5",
+      "question_type": "count_above_threshold",
+      "question": "How many categories have a value greater than 621?",
+      "reference_answer": 3,
+      "model_answer": "4",
+      "correct": false
+    },
+    {
+      "question_id": "ZS2_013_Q6",
+      "question_type": "total_value",
+      "question": "What is the total value across all categories?",
+      "reference_answer": 4209,
+      "model_answer": "4209",
+      "correct": true
+    }
+  ],
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 1429,
+    "completion_tokens": 181,
+    "total_tokens": 1610,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

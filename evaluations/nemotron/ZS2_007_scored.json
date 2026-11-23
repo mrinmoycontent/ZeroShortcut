@@ -1,0 +1,85 @@
+{
+  "task_id": "ZS2_007",
+  "chart_type": "line",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "evaluation_status": "completed",
+  "timestamp": "2026-11-23T10:42:29.813671+00:00",
+  "correct_answers": 5,
+  "incorrect_answers": 1,
+  "total_questions": 6,
+  "accuracy_percent": 83.33,
+  "results": [
+    {
+      "question_id": "ZS2_007_Q1",
+      "question_type": "highest_category",
+      "question": "Which category has the highest value?",
+      "reference_answer": "Sep",
+      "model_answer": "Sep",
+      "correct": true
+    },
+    {
+      "question_id": "ZS2_007_Q2",
+      "question_type": "second_highest",
+      "question": "Which category ranks second highest?",
+      "reference_answer": "Jul",
+      "model_answer": "Jul",
+      "correct": true
+    },
+    {
+      "question_id": "ZS2_007_Q3",
+      "question_type": "value_lookup",
+      "question": "What is the value for Jul?",
+      "reference_answer": 791,
+      "model_answer": "791",
+      "correct": true
+    },
+    {
+      "question_id": "ZS2_007_Q4",
+      "question_type": "absolute_difference",
+      "question": "What is the absolute difference between May and Apr?",
+      "reference_answer": 107,
+      "model_answer": "107",
+      "correct": true
+    },
+    {
+      "question_id": "ZS2_007_Q5",
+      "question_type": "count_above_threshold",
+      "question": "How many categories have a value greater than 619?",
+      "reference_answer": 3,
+      "model_answer": "3",
+      "correct": true
+    },
+    {
+      "question_id": "ZS2_007_Q6",
+      "question_type": "largest_step_change",
+      "question": "Between which consecutive periods does the largest absolute change occur?",
+      "reference_answer": "Aug to Sep",
+      "model_answer": "Jul to Aug",
+      "correct": false
+    }
+  ],
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 1431,
+    "completion_tokens": 178,
+    "total_tokens": 1609,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

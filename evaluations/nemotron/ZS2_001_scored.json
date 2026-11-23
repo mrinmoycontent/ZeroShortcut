@@ -1,0 +1,60 @@
+{
+  "task_id": "ZS2_001",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "evaluation_status": "completed",
+  "correct_answers": 6,
+  "incorrect_answers": 0,
+  "total_questions": 6,
+  "accuracy_percent": 100.0,
+  "scoring_method": "Exact numeric and case-insensitive text matching",
+  "results": [
+    {
+      "question_id": "ZS2_001_Q1",
+      "question": "Which category has the highest value?",
+      "reference_answer": "West",
+      "model_answer": "West",
+      "correct": true,
+      "question_type": "highest_category"
+    },
+    {
+      "question_id": "ZS2_001_Q2",
+      "question": "Which category ranks second highest?",
+      "reference_answer": "East",
+      "model_answer": "East",
+      "correct": true,
+      "question_type": "second_highest"
+    },
+    {
+      "question_id": "ZS2_001_Q3",
+      "question": "What is the value for North?",
+      "reference_answer": 195,
+      "model_answer": "195",
+      "correct": true,
+      "question_type": "value_lookup"
+    },
+    {
+      "question_id": "ZS2_001_Q4",
+      "question": "What is the absolute difference between South and North?",
+      "reference_answer": 115,
+      "model_answer": "115",
+      "correct": true,
+      "question_type": "absolute_difference"
+    },
+    {
+      "question_id": "ZS2_001_Q5",
+      "question": "How many categories have a value greater than 310?",
+      "reference_answer": 3,
+      "model_answer": "3",
+      "correct": true,
+      "question_type": "count_above_threshold"
+    },
+    {
+      "question_id": "ZS2_001_Q6",
+      "question": "What is the total value across all categories?",
+      "reference_answer": 3058,
+      "model_answer": "3058",
+      "correct": true,
+      "question_type": "total_value"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "dataset": "data/visual_tasks_v2.json",
+  "total_tasks": 24,
+  "passed": 24,
+  "failed": 0,
+  "results": [
+    {
+      "task_id": "ZS2_001",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_002",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_003",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_004",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_005",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_006",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_007",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_008",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_009",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_010",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_011",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_012",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_013",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_014",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_015",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_016",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_017",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_018",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_019",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_020",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_021",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_022",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_023",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "task_id": "ZS2_024",
+      "status": "PASS",
+      "errors": []
+    }
+  ]
+}

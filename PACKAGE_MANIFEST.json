@@ -1,0 +1,14 @@
+{
+  "package": "ZeroShortcut audited complete",
+  "dataset_tasks": 24,
+  "questions": 144,
+  "valid_images": 24,
+  "nemotron_correct": 119,
+  "nemotron_incorrect": 25,
+  "nemotron_accuracy_percent": 82.64,
+  "raw_model_response_files": 24,
+  "scored_task_files": 24,
+  "screenshots_included": 2,
+  "api_key_included": false,
+  "note": "All figures refer to the bundled V2 synthetic chart benchmark and the recorded NVIDIA Nemotron 3.5 Super VL run."
+}

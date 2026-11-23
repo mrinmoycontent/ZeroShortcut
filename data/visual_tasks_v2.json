@@ -1,0 +1,1726 @@
+[
+    {
+        "task_id": "ZS2_001",
+        "generation_version": "2.0",
+        "chart_type": "bar",
+        "metric": "Units sold",
+        "image": "images_v2/ZS2_001.png",
+        "categories": [
+            "Coastal",
+            "West",
+            "South",
+            "Central",
+            "East",
+            "North",
+            "Metro"
+        ],
+        "data": {
+            "Coastal": 517,
+            "West": 873,
+            "South": 310,
+            "Central": 150,
+            "East": 790,
+            "North": 195,
+            "Metro": 223
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_001_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "West"
+            },
+            {
+                "question_id": "ZS2_001_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "East"
+            },
+            {
+                "question_id": "ZS2_001_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for North?",
+                "answer": 195,
+                "parameters": {
+                    "category": "North"
+                }
+            },
+            {
+                "question_id": "ZS2_001_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between South and North?",
+                "answer": 115,
+                "parameters": {
+                    "category_a": "South",
+                    "category_b": "North"
+                }
+            },
+            {
+                "question_id": "ZS2_001_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 310?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 310
+                }
+            },
+            {
+                "question_id": "ZS2_001_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 3058
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_002",
+        "generation_version": "2.0",
+        "chart_type": "horizontal_bar",
+        "metric": "Service tickets",
+        "image": "images_v2/ZS2_002.png",
+        "categories": [
+            "Coastal",
+            "North",
+            "East",
+            "Central",
+            "South"
+        ],
+        "data": {
+            "Coastal": 796,
+            "North": 454,
+            "East": 166,
+            "Central": 182,
+            "South": 896
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_002_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "South"
+            },
+            {
+                "question_id": "ZS2_002_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Coastal"
+            },
+            {
+                "question_id": "ZS2_002_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Coastal?",
+                "answer": 796,
+                "parameters": {
+                    "category": "Coastal"
+                }
+            },
+            {
+                "question_id": "ZS2_002_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Central and North?",
+                "answer": 272,
+                "parameters": {
+                    "category_a": "Central",
+                    "category_b": "North"
+                }
+            },
+            {
+                "question_id": "ZS2_002_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 454?",
+                "answer": 2,
+                "parameters": {
+                    "threshold": 454
+                }
+            },
+            {
+                "question_id": "ZS2_002_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 2494
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_003",
+        "generation_version": "2.0",
+        "chart_type": "line",
+        "metric": "Units sold",
+        "image": "images_v2/ZS2_003.png",
+        "categories": [
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep"
+        ],
+        "data": {
+            "Feb": 608,
+            "Mar": 723,
+            "Apr": 236,
+            "May": 871,
+            "Jun": 772,
+            "Jul": 449,
+            "Aug": 938,
+            "Sep": 539
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_003_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Aug"
+            },
+            {
+                "question_id": "ZS2_003_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "May"
+            },
+            {
+                "question_id": "ZS2_003_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Jul?",
+                "answer": 449,
+                "parameters": {
+                    "category": "Jul"
+                }
+            },
+            {
+                "question_id": "ZS2_003_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Aug and May?",
+                "answer": 67,
+                "parameters": {
+                    "category_a": "Aug",
+                    "category_b": "May"
+                }
+            },
+            {
+                "question_id": "ZS2_003_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 665?",
+                "answer": 4,
+                "parameters": {
+                    "threshold": 665
+                }
+            },
+            {
+                "question_id": "ZS2_003_Q6",
+                "question_type": "largest_step_change",
+                "question": "Between which consecutive periods does the largest absolute change occur?",
+                "answer": "Apr to May"
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_004",
+        "generation_version": "2.0",
+        "chart_type": "lollipop",
+        "metric": "Orders",
+        "image": "images_v2/ZS2_004.png",
+        "categories": [
+            "North",
+            "Central",
+            "Coastal",
+            "East",
+            "South",
+            "West",
+            "Metro"
+        ],
+        "data": {
+            "North": 176,
+            "Central": 457,
+            "Coastal": 810,
+            "East": 524,
+            "South": 626,
+            "West": 808,
+            "Metro": 928
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_004_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Metro"
+            },
+            {
+                "question_id": "ZS2_004_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Coastal"
+            },
+            {
+                "question_id": "ZS2_004_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Coastal?",
+                "answer": 810,
+                "parameters": {
+                    "category": "Coastal"
+                }
+            },
+            {
+                "question_id": "ZS2_004_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between North and East?",
+                "answer": 348,
+                "parameters": {
+                    "category_a": "North",
+                    "category_b": "East"
+                }
+            },
+            {
+                "question_id": "ZS2_004_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 626?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 626
+                }
+            },
+            {
+                "question_id": "ZS2_004_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 4329
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_005",
+        "generation_version": "2.0",
+        "chart_type": "bar",
+        "metric": "Orders",
+        "image": "images_v2/ZS2_005.png",
+        "categories": [
+            "Coastal",
+            "Central",
+            "Metro",
+            "East",
+            "West",
+            "North"
+        ],
+        "data": {
+            "Coastal": 313,
+            "Central": 765,
+            "Metro": 830,
+            "East": 602,
+            "West": 578,
+            "North": 692
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_005_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Metro"
+            },
+            {
+                "question_id": "ZS2_005_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Central"
+            },
+            {
+                "question_id": "ZS2_005_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for East?",
+                "answer": 602,
+                "parameters": {
+                    "category": "East"
+                }
+            },
+            {
+                "question_id": "ZS2_005_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between North and Coastal?",
+                "answer": 379,
+                "parameters": {
+                    "category_a": "North",
+                    "category_b": "Coastal"
+                }
+            },
+            {
+                "question_id": "ZS2_005_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 647?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 647
+                }
+            },
+            {
+                "question_id": "ZS2_005_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 3780
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_006",
+        "generation_version": "2.0",
+        "chart_type": "horizontal_bar",
+        "metric": "Service tickets",
+        "image": "images_v2/ZS2_006.png",
+        "categories": [
+            "Metro",
+            "East",
+            "North",
+            "West",
+            "Coastal"
+        ],
+        "data": {
+            "Metro": 363,
+            "East": 467,
+            "North": 287,
+            "West": 853,
+            "Coastal": 836
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_006_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "West"
+            },
+            {
+                "question_id": "ZS2_006_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Coastal"
+            },
+            {
+                "question_id": "ZS2_006_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for North?",
+                "answer": 287,
+                "parameters": {
+                    "category": "North"
+                }
+            },
+            {
+                "question_id": "ZS2_006_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Coastal and North?",
+                "answer": 549,
+                "parameters": {
+                    "category_a": "Coastal",
+                    "category_b": "North"
+                }
+            },
+            {
+                "question_id": "ZS2_006_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 467?",
+                "answer": 2,
+                "parameters": {
+                    "threshold": 467
+                }
+            },
+            {
+                "question_id": "ZS2_006_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 2806
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_007",
+        "generation_version": "2.0",
+        "chart_type": "line",
+        "metric": "Sales (\u20b9 lakh)",
+        "image": "images_v2/ZS2_007.png",
+        "categories": [
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep"
+        ],
+        "data": {
+            "Apr": 673,
+            "May": 566,
+            "Jun": 435,
+            "Jul": 791,
+            "Aug": 335,
+            "Sep": 815
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_007_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Sep"
+            },
+            {
+                "question_id": "ZS2_007_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Jul"
+            },
+            {
+                "question_id": "ZS2_007_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Jul?",
+                "answer": 791,
+                "parameters": {
+                    "category": "Jul"
+                }
+            },
+            {
+                "question_id": "ZS2_007_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between May and Apr?",
+                "answer": 107,
+                "parameters": {
+                    "category_a": "May",
+                    "category_b": "Apr"
+                }
+            },
+            {
+                "question_id": "ZS2_007_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 619?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 619
+                }
+            },
+            {
+                "question_id": "ZS2_007_Q6",
+                "question_type": "largest_step_change",
+                "question": "Between which consecutive periods does the largest absolute change occur?",
+                "answer": "Aug to Sep"
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_008",
+        "generation_version": "2.0",
+        "chart_type": "lollipop",
+        "metric": "Orders",
+        "image": "images_v2/ZS2_008.png",
+        "categories": [
+            "North",
+            "South",
+            "Metro",
+            "Central",
+            "Coastal",
+            "West"
+        ],
+        "data": {
+            "North": 522,
+            "South": 595,
+            "Metro": 361,
+            "Central": 326,
+            "Coastal": 617,
+            "West": 323
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_008_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Coastal"
+            },
+            {
+                "question_id": "ZS2_008_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "South"
+            },
+            {
+                "question_id": "ZS2_008_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Central?",
+                "answer": 326,
+                "parameters": {
+                    "category": "Central"
+                }
+            },
+            {
+                "question_id": "ZS2_008_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Metro and West?",
+                "answer": 38,
+                "parameters": {
+                    "category_a": "Metro",
+                    "category_b": "West"
+                }
+            },
+            {
+                "question_id": "ZS2_008_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 441?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 441
+                }
+            },
+            {
+                "question_id": "ZS2_008_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 2744
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_009",
+        "generation_version": "2.0",
+        "chart_type": "bar",
+        "metric": "Units sold",
+        "image": "images_v2/ZS2_009.png",
+        "categories": [
+            "East",
+            "Metro",
+            "North",
+            "Coastal",
+            "South",
+            "West",
+            "Central"
+        ],
+        "data": {
+            "East": 937,
+            "Metro": 451,
+            "North": 587,
+            "Coastal": 730,
+            "South": 273,
+            "West": 686,
+            "Central": 489
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_009_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "East"
+            },
+            {
+                "question_id": "ZS2_009_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Coastal"
+            },
+            {
+                "question_id": "ZS2_009_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Central?",
+                "answer": 489,
+                "parameters": {
+                    "category": "Central"
+                }
+            },
+            {
+                "question_id": "ZS2_009_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between South and Central?",
+                "answer": 216,
+                "parameters": {
+                    "category_a": "South",
+                    "category_b": "Central"
+                }
+            },
+            {
+                "question_id": "ZS2_009_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 587?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 587
+                }
+            },
+            {
+                "question_id": "ZS2_009_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 4153
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_010",
+        "generation_version": "2.0",
+        "chart_type": "horizontal_bar",
+        "metric": "Units sold",
+        "image": "images_v2/ZS2_010.png",
+        "categories": [
+            "North",
+            "Metro",
+            "West",
+            "Coastal",
+            "South",
+            "Central",
+            "East"
+        ],
+        "data": {
+            "North": 462,
+            "Metro": 312,
+            "West": 452,
+            "Coastal": 638,
+            "South": 733,
+            "Central": 637,
+            "East": 699
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_010_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "South"
+            },
+            {
+                "question_id": "ZS2_010_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "East"
+            },
+            {
+                "question_id": "ZS2_010_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for West?",
+                "answer": 452,
+                "parameters": {
+                    "category": "West"
+                }
+            },
+            {
+                "question_id": "ZS2_010_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between East and North?",
+                "answer": 237,
+                "parameters": {
+                    "category_a": "East",
+                    "category_b": "North"
+                }
+            },
+            {
+                "question_id": "ZS2_010_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 637?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 637
+                }
+            },
+            {
+                "question_id": "ZS2_010_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 3933
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_011",
+        "generation_version": "2.0",
+        "chart_type": "line",
+        "metric": "Sales (\u20b9 lakh)",
+        "image": "images_v2/ZS2_011.png",
+        "categories": [
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep"
+        ],
+        "data": {
+            "Feb": 145,
+            "Mar": 317,
+            "Apr": 810,
+            "May": 414,
+            "Jun": 661,
+            "Jul": 178,
+            "Aug": 812,
+            "Sep": 914
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_011_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Sep"
+            },
+            {
+                "question_id": "ZS2_011_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Aug"
+            },
+            {
+                "question_id": "ZS2_011_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Jun?",
+                "answer": 661,
+                "parameters": {
+                    "category": "Jun"
+                }
+            },
+            {
+                "question_id": "ZS2_011_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between May and Sep?",
+                "answer": 500,
+                "parameters": {
+                    "category_a": "May",
+                    "category_b": "Sep"
+                }
+            },
+            {
+                "question_id": "ZS2_011_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 537?",
+                "answer": 4,
+                "parameters": {
+                    "threshold": 537
+                }
+            },
+            {
+                "question_id": "ZS2_011_Q6",
+                "question_type": "largest_step_change",
+                "question": "Between which consecutive periods does the largest absolute change occur?",
+                "answer": "Jul to Aug"
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_012",
+        "generation_version": "2.0",
+        "chart_type": "lollipop",
+        "metric": "Service tickets",
+        "image": "images_v2/ZS2_012.png",
+        "categories": [
+            "Metro",
+            "Central",
+            "Coastal",
+            "North",
+            "East",
+            "West",
+            "South"
+        ],
+        "data": {
+            "Metro": 960,
+            "Central": 563,
+            "Coastal": 785,
+            "North": 334,
+            "East": 724,
+            "West": 408,
+            "South": 142
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_012_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Metro"
+            },
+            {
+                "question_id": "ZS2_012_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Coastal"
+            },
+            {
+                "question_id": "ZS2_012_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for South?",
+                "answer": 142,
+                "parameters": {
+                    "category": "South"
+                }
+            },
+            {
+                "question_id": "ZS2_012_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between North and East?",
+                "answer": 390,
+                "parameters": {
+                    "category_a": "North",
+                    "category_b": "East"
+                }
+            },
+            {
+                "question_id": "ZS2_012_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 563?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 563
+                }
+            },
+            {
+                "question_id": "ZS2_012_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 3916
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_013",
+        "generation_version": "2.0",
+        "chart_type": "bar",
+        "metric": "Service tickets",
+        "image": "images_v2/ZS2_013.png",
+        "categories": [
+            "South",
+            "Metro",
+            "Central",
+            "East",
+            "North",
+            "Coastal",
+            "West"
+        ],
+        "data": {
+            "South": 766,
+            "Metro": 390,
+            "Central": 479,
+            "East": 720,
+            "North": 348,
+            "Coastal": 885,
+            "West": 621
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_013_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Coastal"
+            },
+            {
+                "question_id": "ZS2_013_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "South"
+            },
+            {
+                "question_id": "ZS2_013_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Central?",
+                "answer": 479,
+                "parameters": {
+                    "category": "Central"
+                }
+            },
+            {
+                "question_id": "ZS2_013_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Central and Metro?",
+                "answer": 89,
+                "parameters": {
+                    "category_a": "Central",
+                    "category_b": "Metro"
+                }
+            },
+            {
+                "question_id": "ZS2_013_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 621?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 621
+                }
+            },
+            {
+                "question_id": "ZS2_013_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 4209
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_014",
+        "generation_version": "2.0",
+        "chart_type": "horizontal_bar",
+        "metric": "Sales (\u20b9 lakh)",
+        "image": "images_v2/ZS2_014.png",
+        "categories": [
+            "Coastal",
+            "West",
+            "Central",
+            "Metro",
+            "East",
+            "South"
+        ],
+        "data": {
+            "Coastal": 375,
+            "West": 155,
+            "Central": 391,
+            "Metro": 374,
+            "East": 519,
+            "South": 951
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_014_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "South"
+            },
+            {
+                "question_id": "ZS2_014_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "East"
+            },
+            {
+                "question_id": "ZS2_014_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for South?",
+                "answer": 951,
+                "parameters": {
+                    "category": "South"
+                }
+            },
+            {
+                "question_id": "ZS2_014_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between West and South?",
+                "answer": 796,
+                "parameters": {
+                    "category_a": "West",
+                    "category_b": "South"
+                }
+            },
+            {
+                "question_id": "ZS2_014_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 383?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 383
+                }
+            },
+            {
+                "question_id": "ZS2_014_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 2765
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_015",
+        "generation_version": "2.0",
+        "chart_type": "line",
+        "metric": "Sales (\u20b9 lakh)",
+        "image": "images_v2/ZS2_015.png",
+        "categories": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun"
+        ],
+        "data": {
+            "Jan": 278,
+            "Feb": 916,
+            "Mar": 810,
+            "Apr": 837,
+            "May": 549,
+            "Jun": 829
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_015_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Feb"
+            },
+            {
+                "question_id": "ZS2_015_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Apr"
+            },
+            {
+                "question_id": "ZS2_015_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Apr?",
+                "answer": 837,
+                "parameters": {
+                    "category": "Apr"
+                }
+            },
+            {
+                "question_id": "ZS2_015_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Jan and Feb?",
+                "answer": 638,
+                "parameters": {
+                    "category_a": "Jan",
+                    "category_b": "Feb"
+                }
+            },
+            {
+                "question_id": "ZS2_015_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 819?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 819
+                }
+            },
+            {
+                "question_id": "ZS2_015_Q6",
+                "question_type": "largest_step_change",
+                "question": "Between which consecutive periods does the largest absolute change occur?",
+                "answer": "Jan to Feb"
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_016",
+        "generation_version": "2.0",
+        "chart_type": "lollipop",
+        "metric": "Service tickets",
+        "image": "images_v2/ZS2_016.png",
+        "categories": [
+            "South",
+            "West",
+            "East",
+            "Metro",
+            "North",
+            "Central",
+            "Coastal"
+        ],
+        "data": {
+            "South": 628,
+            "West": 618,
+            "East": 648,
+            "Metro": 252,
+            "North": 578,
+            "Central": 457,
+            "Coastal": 683
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_016_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Coastal"
+            },
+            {
+                "question_id": "ZS2_016_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "East"
+            },
+            {
+                "question_id": "ZS2_016_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for South?",
+                "answer": 628,
+                "parameters": {
+                    "category": "South"
+                }
+            },
+            {
+                "question_id": "ZS2_016_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between South and North?",
+                "answer": 50,
+                "parameters": {
+                    "category_a": "South",
+                    "category_b": "North"
+                }
+            },
+            {
+                "question_id": "ZS2_016_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 618?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 618
+                }
+            },
+            {
+                "question_id": "ZS2_016_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 3864
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_017",
+        "generation_version": "2.0",
+        "chart_type": "bar",
+        "metric": "Orders",
+        "image": "images_v2/ZS2_017.png",
+        "categories": [
+            "West",
+            "South",
+            "North",
+            "Metro",
+            "East"
+        ],
+        "data": {
+            "West": 566,
+            "South": 262,
+            "North": 551,
+            "Metro": 917,
+            "East": 387
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_017_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Metro"
+            },
+            {
+                "question_id": "ZS2_017_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "West"
+            },
+            {
+                "question_id": "ZS2_017_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Metro?",
+                "answer": 917,
+                "parameters": {
+                    "category": "Metro"
+                }
+            },
+            {
+                "question_id": "ZS2_017_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Metro and West?",
+                "answer": 351,
+                "parameters": {
+                    "category_a": "Metro",
+                    "category_b": "West"
+                }
+            },
+            {
+                "question_id": "ZS2_017_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 551?",
+                "answer": 2,
+                "parameters": {
+                    "threshold": 551
+                }
+            },
+            {
+                "question_id": "ZS2_017_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 2683
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_018",
+        "generation_version": "2.0",
+        "chart_type": "horizontal_bar",
+        "metric": "Service tickets",
+        "image": "images_v2/ZS2_018.png",
+        "categories": [
+            "North",
+            "Central",
+            "Metro",
+            "East",
+            "West",
+            "Coastal"
+        ],
+        "data": {
+            "North": 519,
+            "Central": 276,
+            "Metro": 783,
+            "East": 532,
+            "West": 835,
+            "Coastal": 686
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_018_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "West"
+            },
+            {
+                "question_id": "ZS2_018_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Metro"
+            },
+            {
+                "question_id": "ZS2_018_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Central?",
+                "answer": 276,
+                "parameters": {
+                    "category": "Central"
+                }
+            },
+            {
+                "question_id": "ZS2_018_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between West and Coastal?",
+                "answer": 149,
+                "parameters": {
+                    "category_a": "West",
+                    "category_b": "Coastal"
+                }
+            },
+            {
+                "question_id": "ZS2_018_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 609?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 609
+                }
+            },
+            {
+                "question_id": "ZS2_018_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 3631
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_019",
+        "generation_version": "2.0",
+        "chart_type": "line",
+        "metric": "Service tickets",
+        "image": "images_v2/ZS2_019.png",
+        "categories": [
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct"
+        ],
+        "data": {
+            "Mar": 704,
+            "Apr": 480,
+            "May": 624,
+            "Jun": 807,
+            "Jul": 416,
+            "Aug": 875,
+            "Sep": 625,
+            "Oct": 775
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_019_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Aug"
+            },
+            {
+                "question_id": "ZS2_019_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Jun"
+            },
+            {
+                "question_id": "ZS2_019_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Oct?",
+                "answer": 775,
+                "parameters": {
+                    "category": "Oct"
+                }
+            },
+            {
+                "question_id": "ZS2_019_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Apr and Sep?",
+                "answer": 145,
+                "parameters": {
+                    "category_a": "Apr",
+                    "category_b": "Sep"
+                }
+            },
+            {
+                "question_id": "ZS2_019_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 664?",
+                "answer": 4,
+                "parameters": {
+                    "threshold": 664
+                }
+            },
+            {
+                "question_id": "ZS2_019_Q6",
+                "question_type": "largest_step_change",
+                "question": "Between which consecutive periods does the largest absolute change occur?",
+                "answer": "Jul to Aug"
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_020",
+        "generation_version": "2.0",
+        "chart_type": "lollipop",
+        "metric": "Sales (\u20b9 lakh)",
+        "image": "images_v2/ZS2_020.png",
+        "categories": [
+            "North",
+            "Metro",
+            "Coastal",
+            "West",
+            "South"
+        ],
+        "data": {
+            "North": 412,
+            "Metro": 785,
+            "Coastal": 183,
+            "West": 168,
+            "South": 842
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_020_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "South"
+            },
+            {
+                "question_id": "ZS2_020_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Metro"
+            },
+            {
+                "question_id": "ZS2_020_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for West?",
+                "answer": 168,
+                "parameters": {
+                    "category": "West"
+                }
+            },
+            {
+                "question_id": "ZS2_020_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between South and West?",
+                "answer": 674,
+                "parameters": {
+                    "category_a": "South",
+                    "category_b": "West"
+                }
+            },
+            {
+                "question_id": "ZS2_020_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 412?",
+                "answer": 2,
+                "parameters": {
+                    "threshold": 412
+                }
+            },
+            {
+                "question_id": "ZS2_020_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 2390
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_021",
+        "generation_version": "2.0",
+        "chart_type": "bar",
+        "metric": "Service tickets",
+        "image": "images_v2/ZS2_021.png",
+        "categories": [
+            "North",
+            "Metro",
+            "East",
+            "Coastal",
+            "Central"
+        ],
+        "data": {
+            "North": 946,
+            "Metro": 555,
+            "East": 892,
+            "Coastal": 337,
+            "Central": 940
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_021_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "North"
+            },
+            {
+                "question_id": "ZS2_021_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Central"
+            },
+            {
+                "question_id": "ZS2_021_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Central?",
+                "answer": 940,
+                "parameters": {
+                    "category": "Central"
+                }
+            },
+            {
+                "question_id": "ZS2_021_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between East and Central?",
+                "answer": 48,
+                "parameters": {
+                    "category_a": "East",
+                    "category_b": "Central"
+                }
+            },
+            {
+                "question_id": "ZS2_021_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 892?",
+                "answer": 2,
+                "parameters": {
+                    "threshold": 892
+                }
+            },
+            {
+                "question_id": "ZS2_021_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 3670
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_022",
+        "generation_version": "2.0",
+        "chart_type": "horizontal_bar",
+        "metric": "Sales (\u20b9 lakh)",
+        "image": "images_v2/ZS2_022.png",
+        "categories": [
+            "Central",
+            "West",
+            "East",
+            "South",
+            "Metro",
+            "Coastal"
+        ],
+        "data": {
+            "Central": 219,
+            "West": 977,
+            "East": 513,
+            "South": 368,
+            "Metro": 705,
+            "Coastal": 740
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_022_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "West"
+            },
+            {
+                "question_id": "ZS2_022_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Coastal"
+            },
+            {
+                "question_id": "ZS2_022_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Metro?",
+                "answer": 705,
+                "parameters": {
+                    "category": "Metro"
+                }
+            },
+            {
+                "question_id": "ZS2_022_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Coastal and Central?",
+                "answer": 521,
+                "parameters": {
+                    "category_a": "Coastal",
+                    "category_b": "Central"
+                }
+            },
+            {
+                "question_id": "ZS2_022_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 609?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 609
+                }
+            },
+            {
+                "question_id": "ZS2_022_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 3522
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_023",
+        "generation_version": "2.0",
+        "chart_type": "line",
+        "metric": "Service tickets",
+        "image": "images_v2/ZS2_023.png",
+        "categories": [
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep"
+        ],
+        "data": {
+            "Feb": 978,
+            "Mar": 930,
+            "Apr": 490,
+            "May": 752,
+            "Jun": 767,
+            "Jul": 283,
+            "Aug": 898,
+            "Sep": 206
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_023_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Feb"
+            },
+            {
+                "question_id": "ZS2_023_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Mar"
+            },
+            {
+                "question_id": "ZS2_023_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Apr?",
+                "answer": 490,
+                "parameters": {
+                    "category": "Apr"
+                }
+            },
+            {
+                "question_id": "ZS2_023_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between Jun and Jul?",
+                "answer": 484,
+                "parameters": {
+                    "category_a": "Jun",
+                    "category_b": "Jul"
+                }
+            },
+            {
+                "question_id": "ZS2_023_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 759?",
+                "answer": 4,
+                "parameters": {
+                    "threshold": 759
+                }
+            },
+            {
+                "question_id": "ZS2_023_Q6",
+                "question_type": "largest_step_change",
+                "question": "Between which consecutive periods does the largest absolute change occur?",
+                "answer": "Aug to Sep"
+            }
+        ]
+    },
+    {
+        "task_id": "ZS2_024",
+        "generation_version": "2.0",
+        "chart_type": "lollipop",
+        "metric": "Sales (\u20b9 lakh)",
+        "image": "images_v2/ZS2_024.png",
+        "categories": [
+            "Metro",
+            "South",
+            "North",
+            "Central",
+            "West",
+            "Coastal"
+        ],
+        "data": {
+            "Metro": 742,
+            "South": 620,
+            "North": 504,
+            "Central": 895,
+            "West": 599,
+            "Coastal": 225
+        },
+        "questions": [
+            {
+                "question_id": "ZS2_024_Q1",
+                "question_type": "highest_category",
+                "question": "Which category has the highest value?",
+                "answer": "Central"
+            },
+            {
+                "question_id": "ZS2_024_Q2",
+                "question_type": "second_highest",
+                "question": "Which category ranks second highest?",
+                "answer": "Metro"
+            },
+            {
+                "question_id": "ZS2_024_Q3",
+                "question_type": "value_lookup",
+                "question": "What is the value for Metro?",
+                "answer": 742,
+                "parameters": {
+                    "category": "Metro"
+                }
+            },
+            {
+                "question_id": "ZS2_024_Q4",
+                "question_type": "absolute_difference",
+                "question": "What is the absolute difference between South and Metro?",
+                "answer": 122,
+                "parameters": {
+                    "category_a": "South",
+                    "category_b": "Metro"
+                }
+            },
+            {
+                "question_id": "ZS2_024_Q5",
+                "question_type": "count_above_threshold",
+                "question": "How many categories have a value greater than 609?",
+                "answer": 3,
+                "parameters": {
+                    "threshold": 609
+                }
+            },
+            {
+                "question_id": "ZS2_024_Q6",
+                "question_type": "total_value",
+                "question": "What is the total value across all categories?",
+                "answer": 3585
+            }
+        ]
+    }
+]
