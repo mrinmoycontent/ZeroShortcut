@@ -104,3 +104,7 @@ The validator recomputes answers from each task's structured source data, checks
 - `evaluations/nemotron/` contains raw model responses and per-task scoring records. An initial failed ZS2_001 attempt is retained as `ZS2_001_initial_failed_attempt.json`; the successful retry is the raw `ZS2_001.json` and the scored result is `ZS2_001_scored.json`.
 - `evidence/screenshots/` contains two screenshots of the generated chart gallery.
 - The benchmark covers only synthetic business charts, one model, 24 images and 144 questions. No second-model comparison or broad external generalisation study has been completed.
+
+## Technical explanation and validation log
+
+See [TECHNICAL_EXPLANATION.md](TECHNICAL_EXPLANATION.md) for the Track 2 problem definition, practical impact, architecture, design decisions, assumptions, model findings, and limitations. The recorded final checks are in `evidence/validation_test_run.log`.
